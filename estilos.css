@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    background-color: rgba(175, 156, 156, 0.76);
+    position:fixed;
+    margin-top: -219px;
+    width: 100%;
+    height: 50px;
+    z-index: 5;
+}
+ul{
+    list-style-type: none;
+}
+nav{
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: space-between;
+    height: 70px;
+    align-items:center;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    padding: 0 20px;
+}
+.barra li a{
+    color: rgb(255, 249, 249);
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 35px;
+    float:left;
+}
+
+nav ul li a {
+
+    margin-right: 200px;
+    text-decoration: none;
+    font-size: large;
+    color: #ffffff;
+    font-weight: bold;
+}
+header,section{
+    padding: 1%  0;
+}
+ .menu{
+ 
+   display: inline-block;
+ }
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: coral;
+}
+
+.contenedor {
+    background-color: chocolate;
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 70px;
+}
+
+.texto{
+    padding: 15px;
+    margin: 15px;
+    color: white;
+}
+.columna-izq{
+    width: 600px;
+}
+.columna-der{
+        width: 250px;
+        
+    }
+
+.borde{
+    border-radius: 50%;
+    
+}
+.auto{
+    padding: 50px;
+    max-height: 10px;
+    display: inline-block;
+    width: 250px;
+}
+.at-at{
+    padding: 50px;
+    max-height: 10px;
+    display: inline-block;
+}
+.fotomontaje{
+    padding: 50px;
+    max-height: 10px;
+    display: inline-block;
+}
+
+
+.flexbox-1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+.contenedor-2{
+    background-color:chocolate;
+    max-width: 1040px;
+    margin: 0 auto;
+    padding:0 15px;
+    display: flex;
+   
+}
+
+header {
+    
+     background-image: url(img/chad.jpg);
+     background-position: left top;
+     background-attachment: scroll;
+     background-size: cover;
+    
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 143px;
+}
+
+
+header p {
+    font-size: 120px;
+    font-weight:900;
+    margin-bottom: 1px;
+}
+
+header h1 {
+    font-size: 60px;
+    font-weight: 600;
+    width: 520px;
+    margin: 0 auto;
+}
+
+.b-blanco{
+    border:solid 15px white;
+    padding-top: 142px;
+    padding-bottom: 142px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.h2{
+text-align: center;
+
+}
+.footer{
+    background-color: rgb(82, 65, 65); 
+    max-width: 1040px;
+    margin: 0 auto;
+    padding:0 15px;
+    display: flex;
+   
+}
+.contenedor-5{
+    background-color: rgb(161, 151, 151);
+
+}
+
